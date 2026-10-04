@@ -1,0 +1,92 @@
+{
+  "cesp_version": "1.0",
+  "name": "muthur",
+  "display_name": "MU/TH/UR 6000 (Alien)",
+  "version": "1.0.0",
+  "description": "Nostromo MU/TH/UR 6000 mainframe console.",
+  "author": {
+    "name": "Jake Wesorick"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/loading-screen.wav",
+          "label": "Communications loading sequence",
+          "sha256": "961e46128ea57a318d3f7b51b50f788b4407cc6695d5689a6b9fb0fbb5c25bd4"
+        },
+        {
+          "file": "sounds/seq-boot-chatter.wav",
+          "label": "Nostromo boot chatter",
+          "sha256": "314843c4c07677cf26d8fe070d8a9f3887b660426a74ec9f70bd31c5ce3cf03c"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/one-beep-3k.wav",
+          "label": "Beep",
+          "sha256": "aa88d5908d8a1aeee384f175ec80ff2f8d1f73c6e011e18b08d64adc7bc38452"
+        },
+        {
+          "file": "sounds/one-beep-2600a.wav",
+          "label": "Beep",
+          "sha256": "278952db49d5cb5249fe3b56e12bb4b7e990fe5718b2e0bb7864c432558ca0e4"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/seq-readout.wav",
+          "label": "Overmonitoring address matrix readout",
+          "sha256": "4772e6855925237b7f11812ef5b0b39d9186c170009eab5e4c017bc536ccf34f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/seq-ladder.wav",
+          "label": "Tone ladder",
+          "sha256": "c3e0b9ae926bd8205188a8a418572c51cceb9dfa85d6f59e7e594cce1f704864"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/one-beep-double.wav",
+          "label": "Double beep",
+          "sha256": "d05aa48cabd2615fd761902eafdc02cd9f54e64ebe00d2893477faf74ed6c8ca"
+        },
+        {
+          "file": "sounds/seq-four-beeps.wav",
+          "label": "Four beeps",
+          "sha256": "25866a6683c757b9b939955bb26652844d6fd2a40ca5915d526772d0d1ce62b4"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/seq-tone-ticks.wav",
+          "label": "Tone ticks",
+          "sha256": "a33dcd88e1bf9a9729105797baf5a7f345cdc9be21297ada55b77019b01e16df"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/beep-flurry.wav",
+          "label": "Beep flurry",
+          "sha256": "288dcbbf346ef4eb1774ed37ef0d447d1382660e12533c697b6f968f983d3721"
+        }
+      ]
+    }
+  }
+}
