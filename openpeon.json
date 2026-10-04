@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "muthur",
   "display_name": "MU/TH/UR 6000 (Alien)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nostromo MU/TH/UR 6000 mainframe console.",
   "author": {
     "name": "Jake Wesorick"
@@ -61,12 +61,12 @@
         {
           "file": "sounds/one-beep-double.wav",
           "label": "Double beep",
-          "sha256": "d05aa48cabd2615fd761902eafdc02cd9f54e64ebe00d2893477faf74ed6c8ca"
+          "sha256": "a0565aeac4d0a5df5dc384109b986f692bc3de540bc49cf29beaa863111499b8"
         },
         {
           "file": "sounds/seq-four-beeps.wav",
           "label": "Four beeps",
-          "sha256": "25866a6683c757b9b939955bb26652844d6fd2a40ca5915d526772d0d1ce62b4"
+          "sha256": "4cc5d8eea701baa8fef426bf38f7ffe570c92b8aaf673ecc960cf87f8578d5aa"
         }
       ]
     },
